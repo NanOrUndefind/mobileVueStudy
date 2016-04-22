@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>教师招聘网,2016年教师招聘,教师招聘网是中国教师招聘致知名品牌网站</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui" media="(device-height: 568px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="keyword" content="教师招聘网,2016年教师招聘信息,万行教师人才网">
+    <meta name="description"
+          content="万行教师人才网手机版(m.job910.com)是中国教师招聘网领先品牌万行旗下手机找教师工作网,实时更新2016教师招聘信息和教师简历,招聘教师敬请关注教师招聘网，万行教师招聘网拥有超过110万份专业教师简历和近10万动态教师招聘信息">
+    <script type="text/javascript" src="../../../globle/js/vue.min.js"></script>
+    <script type="text/javascript" src="../../../globle/js/swiper.min.js"></script>
+    <script type="text/javascript" src="../../../globle/js/zepto.min.js"></script>
+    <link href="../../src/css/index.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../../src/css/a.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../../../globle/css/swiper.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../../../globle/css/footer.css" rel="stylesheet" type="text/css" media="all"/>
+    <script>
+        !function(){function e(){var e=document.documentElement.clientWidth;e>750&&(e=750),document.documentElement.style.setProperty("font-size",e/7.5+"px","important")}var t=null;window.addEventListener("resize",function(){clearTimeout(t),t=setTimeout(e,300)},!1),e()}();
+    </script>
+    <script>
+        var brandArr = [
+            'http://pic.58pic.com/58pic/15/14/91/36D58PICzd6_1024.jpg',
+            'http://img0.imgtn.bdimg.com/it/u=2237963343,809689252&fm=21&gp=0.jpg',
+            'http://img0.imgtn.bdimg.com/it/u=252859708,2873327537&fm=21&gp=0.jpg',
+            'http://img0.imgtn.bdimg.com/it/u=3404594731,902912275&fm=21&gp=0.jpg',
+            'http://img2.imgtn.bdimg.com/it/u=375621280,1880960682&fm=21&gp=0.jpg',
+            'http://img4.imgtn.bdimg.com/it/u=1918423052,1540132432&fm=21&gp=0.jpg',
+            'http://img0.imgtn.bdimg.com/it/u=355587544,479632421&fm=21&gp=0.jpg',
+            'http://img0.imgtn.bdimg.com/it/u=2237963343,809689252&fm=21&gp=0.jpg'
+        ];
+    </script>
+
+</head>
+<body>
+<div id="app" class="index">
+    <div class="top">
+        <menu>
+            <div class="seat">
+                <div class="wxLogo iconfont"></div>
+                <a href="#">微信求职</a>
+            </div>
+            <div class="signAndRegister">
+                <a href="">登录</a>
+                <span>|</span>
+                <a href="">注册</a>
+            </div>
+        </menu>
+        <div class="logo">
+            <img src="../../src/img/logo.png" width="50%" height="auto"/>
+        </div>
+        <div class="search">
+            <div class="border">
+                <input type="text" name="keywords" placeholder="请输入职位名称" id="J_search_keywords" />
+                <span class="iconfont searchLogo">&#xe645;</span>
+            </div>
+        </div>
+    </div>
+    <div class="loop">
+        <div class="swiper-container swiper-container-horizontal" id="loop">
+            <div class="swiper-wrapper" >
+                <div class="swiper-slide swiper-slide-prev" >Slide 1</div>
+                <div class="swiper-slide swiper-slide-active">Slide 2</div>
+                <div class="swiper-slide swiper-slide-next">Slide 3</div>
+            </div>
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+            </div>
+        </div>
+    </div>
+    <div class="hotSubject">
+        <h3>热门职位</h3>
+        <ul>
+            <li v-for="temp in job">{{ temp }}</li>
+        </ul>
+    </div>
+    <div class="adBanner">
+        <div class="swiper-container swiper-container-horizontal" id="adBanner">
+            <div class="swiper-wrapper" >
+                <div class="swiper-slide swiper-slide-prev" >Slide 1</div>
+                <div class="swiper-slide swiper-slide-active" >Slide 2</div>
+                <div class="swiper-slide swiper-slide-next" >Slide 3</div>
+            </div>
+            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+            </div>
+        </div>
+    </div>
+    <!-- 品牌招聘 -->
+    <div class="brandRecruitment">
+        <div class="brand">
+            <span class="h1">品牌招聘</span>
+            <div class="refresh"><span class="iconfont">&#xe62b;</span>换一批</div>
+        </div>
+        <div class="detail">
+            <li v-for="temp in brandBanner">
+                <img src="{{ temp }}">
+            </li>
+        </div>
+    </div>
+    <!--知名招聘-->
+    <div class="famousR">
+        <span class="h1">知名招聘</span>
+        <div id="famousR-List">
+            <div class="swiper-container swiper-container-horizontal famousR-List">
+                <div class="swiper-wrapper" >
+                    <div class="swiper-slide swiper-slide-prev" >
+                        <li>
+                            <p class="name">
+                                <span>安徽静安健康产业投资有限责任公司</span>
+                                <span>hot</span>
+                            </p>
+                            <p class="detail">急聘：B超医生、医务科主管</p>
+                        </li>
+                        <li>
+                            <p class="name">
+                                <span>安徽静安健康产业投资有限责任公司</span>
+                                <span>hot</span>
+                            </p>
+                            <p class="detail">急聘：B超医生、医务科主管</p>
+                        </li>
+                        <li>
+                            <p class="name">
+                                <span>安徽静安健康产业投资有限责任公司</span>
+                                <span>hot</span>
+                            </p>
+                            <p class="detail">急聘：B超医生、医务科主管</p>
+                        </li>
+                        <li>
+                            <p class="name">
+                                <span>安徽静安健康产业投资有限责任公司</span>
+                                <span>hot</span>
+                            </p>
+                            <p class="detail">急聘：B超医生、医务科主管</p>
+                        </li>
+                        <li>
+                            <p class="name">
+                                <span>安徽静安健康产业投资有限责任公司</span>
+                                <span>hot</span>
+                            </p>
+                            <p class="detail">急聘：B超医生、医务科主管</p>
+                        </li>
+                    </div>
+                    <div class="swiper-slide swiper-slide-active" >
+                        <p class="name">
+                            <span>安徽静安健康产业投资有限责任公司</span>
+                            <span>hot</span>
+                        </p>
+                        <p class="detail">急聘：B超医生、医务科主管</p>
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" >
+                        <p class="name">
+                            <span>安徽静安健康产业投资有限责任公司</span>
+                            <span>hot</span>
+                        </p>
+                        <p class="detail">急聘：B超医生、医务科主管</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                    <span class="swiper-pagination-bullet"></span>
+                </div>
+            </div>
+        </div>
+        <div class="famousR-detail">
+            <li>
+                <img src="http://pic.58pic.com/58pic/15/14/91/36D58PICzd6_1024.jpg">
+            </li>
+            <li>
+                <img src="http://img0.imgtn.bdimg.com/it/u=2237963343,809689252&amp;fm=21&amp;gp=0.jpg">
+            </li>
+        </div>
+    </div>
+    <!--商品广告位-->
+    <div class="shopAd">
+        <div class="shopAdDetail">
+            <li>
+                <p>奉化爱伊美医院</p>
+                <p>耳鼻喉科</p>
+            </li>
+            <li>
+                <p>奉化爱伊美医院</p>
+                <p>耳鼻喉科</p>
+            </li>
+            <li>
+                <p>奉化爱伊美医院</p>
+                <p>耳鼻喉科</p>
+            </li>
+            <li>
+                <p>奉化爱伊美医院</p>
+                <p>耳鼻喉科</p>
+            </li>
+            <li>
+                <p>奉化爱伊美医院</p>
+                <p>耳鼻喉科</p>
+            </li>
+            <li>
+                <p>奉化爱伊美医院</p>
+                <p>耳鼻喉科</p>
+            </li>
+            <li>
+                <p>奉化爱伊美医院</p>
+                <p>耳鼻喉科</p>
+            </li>
+            <li>
+                <p>奉化爱伊美医院</p>
+                <p>耳鼻喉科</p>
+            </li>
+            <li>
+                <p>奉化爱伊美医院</p>
+                <p>耳鼻喉科</p>
+            </li>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-action">
+            <a>
+                <span class="iconfont">&#xe65b;</span>
+                <span>首页</span>
+            </a>
+            <a>
+                <span class="iconfont">&#xe629;</span>
+                <span>客服</span>
+            </a>
+            <a>
+                <span class="iconfont">&#xe610;</span>
+                <span>反馈</span>
+            </a>
+        </div>
+        <div class="footer-www">Copyright©2012  job120.com</div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../../src/js/index.js"></script>
+</html>

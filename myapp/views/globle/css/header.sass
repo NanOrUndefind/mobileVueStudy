@@ -1,0 +1,22 @@
+@function pxTorem($px)
+  @return $px / 750 * 7.5rem
+
+.header
+  width: 100%
+  height: pxTorem(90)
+  background: #e93829
+  padding: pxTorem(10) pxTorem(20)
+  span
+    display: inline-block
+    color: #ffffff
+    font-size: pxTorem(44)
+    &.title
+      width: pxTorem(750-2*44-40)
+      height: 100%
+      text-align: center
+      line-height: pxTorem(70)
+      font-size: pxTorem(36)
+  .goto
+    display: inline-block
+    width: pxTorem(44)
+    height: pxTorem(44)

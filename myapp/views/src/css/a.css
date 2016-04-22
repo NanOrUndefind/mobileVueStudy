@@ -1,0 +1,361 @@
+.top {
+  width: 7.5rem;
+  height: auto;
+  padding: 0.1rem 0.2rem;
+  background: #ffffff; }
+  .top menu {
+    height: 0.6rem;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    margin-bottom: 0.45rem; }
+    .top menu a {
+      display: inline-block;
+      color: #3a3a3a;
+      font-weight: bold; }
+    .top menu .seat {
+      width: 2rem;
+      height: 100%;
+      display: flex;
+      display: -webkit-flex; }
+      .top menu .seat .wxLogo {
+        width: 0.44rem;
+        height: 0.6rem;
+        font-size: 0.44rem;
+        font-family: iconfont !important;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        text-align: center;
+        color: #22bf26; }
+      .top menu .seat a {
+        padding: 0 0.1rem; }
+    .top menu .signAndRegister span {
+      padding: 0.1rem; }
+  .top .logo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0.4rem; }
+  .top .search {
+    width: 100%;
+    height: 0.95rem;
+    padding-left: 0.2rem;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px; }
+    .top .search .border {
+      display: flex;
+      display: -webkit-flex; }
+    .top .search input {
+      height: 0.88rem;
+      line-height: 0.88rem;
+      font-size: 0.28rem;
+      width: 6.2rem;
+      display: block; }
+    .top .search .searchLogo {
+      width: 0.44rem;
+      height: 0.9rem;
+      line-height: 0.9rem;
+      font-size: 0.44rem;
+      display: block;
+      color: #d7d7d7; }
+
+.loop {
+  width: 100%;
+  height: 2.5rem;
+  margin: 0.2rem 0; }
+  .loop .swiper-container {
+    width: 100%;
+    height: 100%;
+    background: #ffffff; }
+
+.hotSubject {
+  background: #ffffff;
+  padding: 0.2rem; }
+  .hotSubject ul {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-wrap: wrap;
+    padding-top: 0.1rem; }
+    .hotSubject ul li {
+      width: 1.34rem;
+      height: 0.75rem;
+      line-height: 0.73rem;
+      text-align: center;
+      font-size: 0.28rem;
+      color: #6c6c6c;
+      border: 1px solid #d7d7d7;
+      border-radius: 3px;
+      margin-right: 0.1rem;
+      margin-bottom: 0.1rem; }
+      .hotSubject ul li:nth-child(5n) {
+        margin-right: 0; }
+
+.adBanner {
+  margin: 0.2rem 0;
+  width: 100%;
+  height: 1.5rem;
+  background: #ffffff; }
+  .adBanner .swiper-container {
+    width: 100%;
+    height: 100%; }
+
+.brandRecruitment {
+  background: #ffffff;
+  padding: 0.15rem 0.2rem;
+  width: 100%;
+  height: auto; }
+  .brandRecruitment .brand {
+    width: 100%;
+    height: 0.56rem;
+    margin-bottom: 0.15rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between; }
+    .brandRecruitment .brand .h1 {
+      font-size: 0.32rem;
+      color: #3b3a3a;
+      font-weight: bold;
+      line-height: 0.56rem; }
+    .brandRecruitment .brand .refresh {
+      font-size: 0.24rem;
+      width: 1.26rem;
+      height: 0.56rem;
+      line-height: 0.54rem;
+      text-align: center;
+      color: #6c6c6c;
+      border: 1px solid #d7d7d7;
+      border-radius: 0.1rem; }
+      .brandRecruitment .brand .refresh .iconfont {
+        font-size: 0.32rem;
+        padding: 0 1px; }
+
+.brandRecruitment .detail, .famousR .famousR-detail {
+  width: 100%;
+  height: auto;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-wrap: wrap; }
+  .brandRecruitment .detail li, .famousR .famousR-detail li {
+    width: 3.45rem;
+    height: 1.4rem;
+    margin-right: 0.18rem;
+    margin-bottom: 0.15rem; }
+    .brandRecruitment .detail li:nth-child(2n), .famousR .famousR-detail li:nth-child(2n) {
+      margin-right: 0; }
+    .brandRecruitment .detail li img, .famousR .famousR-detail li img {
+      width: 100%;
+      height: 100%; }
+
+.famousR {
+  background: #ffffff;
+  padding: 0.15rem 0.2rem 0.05rem;
+  width: 100%;
+  height: auto;
+  margin-top: 0.2rem; }
+  .famousR .h1 {
+    font-size: 0.32rem;
+    color: #3b3a3a;
+    font-weight: bold;
+    line-height: 0.56rem;
+    padding: 0 0 0.15rem 0;
+    border-bottom: 1px #d7d7d7 solid;
+    width: 100%;
+    display: inline-block; }
+  .famousR .famousR-detail {
+    margin-top: 0.2rem; }
+
+#famousR-List {
+  width: 100%;
+  height: 7.4rem;
+  overflow: hidden; }
+  #famousR-List .swiper-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 0.4rem; }
+  #famousR-List .swiper-pagination {
+    top: 0.14rem;
+    bottom: 0 !important;
+    position: absolute !important;
+    height: 0.45rem; }
+  #famousR-List .swiper-wrapper {
+    width: 100%;
+    height: 100%; }
+    #famousR-List .swiper-wrapper li {
+      width: 100%;
+      height: 1.4rem;
+      padding-left: 0.1rem;
+      padding-top: 0.2rem;
+      border-bottom: 1px #d7d7d7 solid; }
+      #famousR-List .swiper-wrapper li .name {
+        color: #3b3a3a;
+        font-size: 0.32rem;
+        line-height: 1.5;
+        font-weight: bold;
+        vertical-align: bottom; }
+        #famousR-List .swiper-wrapper li .name span:nth-child(2) {
+          background: #eb5652;
+          border-radius: 3px;
+          color: #fff;
+          font-size: 0.24rem;
+          padding: 0.01rem 0.05rem;
+          margin-top: -0.04rem;
+          font-weight: 100; }
+        #famousR-List .swiper-wrapper li .name span {
+          display: inline-block; }
+      #famousR-List .swiper-wrapper li .detail {
+        font-size: 0.28rem;
+        color: #eb5652;
+        line-height: 1.5;
+        padding-top: 0.1rem; }
+
+.shopAd {
+  padding: 0.2rem; }
+  .shopAd .shopAdDetail {
+    width: 100%;
+    height: auto;
+    overflow: hidden; }
+    .shopAd .shopAdDetail li {
+      width: 100%;
+      background: #ffffff;
+      box-shadow: 0 2px 4px #d7d7d7;
+      height: 1.4rem;
+      margin-bottom: 0.2rem;
+      padding: 0.2rem 0.1rem;
+      border: 1px solid #d7d7d7;
+      border-radius: 3px;
+      border: 0; }
+      .shopAd .shopAdDetail li p:first-child {
+        font-size: 0.32rem;
+        color: #3b3a3a;
+        line-height: 1.8;
+        font-weight: bold; }
+      .shopAd .shopAdDetail li p:last-child {
+        font-size: 0.28rem;
+        color: #6c6c6c;
+        line-height: 1.8; }
+
+.content {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0 0.2rem; }
+
+.login .login-detail {
+  width: 100%;
+  height: 5.1rem; }
+  .login .login-detail .login-name, .login .login-detail .login-password, .login .login-detail .login-sms {
+    width: 100%;
+    height: 1.2rem;
+    padding: 0.2rem 0.1rem;
+    border-bottom: 1px solid #d7d7d7;
+    color: #999999; }
+    .login .login-detail .login-name .iconfont, .login .login-detail .login-password .iconfont, .login .login-detail .login-sms .iconfont {
+      font-size: 0.44rem;
+      line-height: 0.8rem; }
+    .login .login-detail .login-name input, .login .login-detail .login-password input, .login .login-detail .login-sms input {
+      width: 5.5rem;
+      height: 0.6rem;
+      padding: 0 0 0.07rem 0.2rem;
+      font-size: 0.28rem; }
+  .login .login-detail .login-sms input {
+    width: 4.09rem; }
+  .login .login-detail .login-sms .sms {
+    font-size: 0.28rem;
+    text-align: center;
+    padding: 0 0.1rem;
+    border-radius: 0.1rem;
+    line-height: 0.6rem;
+    background: #ff9400;
+    width: 2.21rem;
+    color: #ffffff;
+    display: inline-block; }
+    .login .login-detail .login-sms .sms.action {
+      background: #cccccc; }
+  .login .login-detail .login-action {
+    width: 100%;
+    padding: 0.4rem 0 0.4rem 0.1rem;
+    color: #6c6c6c;
+    font-size: 0.28rem;
+    display: box;
+    display: -webkit-box;
+    box-pack: justify;
+    -webkit-box-pack: justify; }
+    .login .login-detail .login-action b {
+      display: block; }
+    .login .login-detail .login-action span {
+      display: inline-block;
+      width: 0.35rem;
+      height: 0.35rem;
+      border: 0.04rem solid #d7d7d7;
+      line-height: 0.3rem;
+      font-size: 0.37rem;
+      color: #d7d7d7; }
+  .login .login-detail .login-btn {
+    width: 100%;
+    height: 1rem;
+    background: #eb5652;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.36rem;
+    line-height: 1rem;
+    margin-top: 0.4rem; }
+.login .login-method {
+  width: 100%;
+  height: 0.94rem;
+  display: box;
+  display: -webkit-box; }
+  .login .login-method div {
+    width: 50%;
+    height: 100%;
+    border-bottom: 0.04rem solid #d7d7d7;
+    font-size: 0.28rem;
+    line-height: 0.94rem;
+    text-align: center; }
+    .login .login-method div.action {
+      border-color: #eb5652;
+      color: #eb5652; }
+.login .login-logon {
+  margin: 0.7rem auto 0 auto;
+  width: 3.2rem;
+  height: 0.8rem;
+  border: 1px solid #e7e7e7;
+  border-radius: 0.1rem;
+  font-size: 0.28rem;
+  text-align: center;
+  line-height: 0.8rem;
+  color: #ff9400; }
+.login .other-login {
+  margin: 0.7rem auto 0 auto;
+  width: 6rem;
+  text-align: center; }
+  .login .other-login .text {
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    line-height: 0;
+    position: relative;
+    z-index: 1; }
+    .login .other-login .text span {
+      position: absolute;
+      top: 0;
+      left: 2.34rem;
+      z-index: 2;
+      background: #ffffff;
+      display: inline-block;
+      height: 0.3rem;
+      font-size: 0.28rem; }
+  .login .other-login img {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0.4rem; }
+
+/*# sourceMappingURL=a.css.map */
